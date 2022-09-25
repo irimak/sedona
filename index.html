@@ -12,7 +12,7 @@
 <!-- Шапка сайта -->
   <header class="header">
     <div class="header-container">
-      <nav class="menu">
+      <nav class="menu header__menu">
         <div class="logo">
           <a class="logo__img" href="" >
             <img src="images/logo.svg" alt="логотип Седона">
@@ -31,26 +31,76 @@
   </header>
 <!-- Основное содержимое страницы -->
   <main class="main-page">
+    <h1 class="title">Седона - курортный городок</h1>
+
     <section class="about">
       <div class="about-container">
-        <h1 class="about__title">Седона - курортный городок</h1>
-        <p class="about__text">
-          Седона — небольшой городок в Аризоне, заслуживающий большего!
-        </p>
-        <p class="about__subtitle">
-          Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
-        </p>
+        <div class="about__content">
+          <p class="about__promo">
+            Седона — небольшой городок в Аризоне, заслуживающий большего!
+          </p>
+          <p class="about__text">
+            Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
+          </p>
+        </div> 
       </div>
-      
     </section>
-    <section class="services">
-      <h2 class="services__title">Наши предложения</h2>
+
+    <section class="features">
+      <h2 class="features__title">Наши преимущества</h2>
+      <div class="features__list">
+        <ul class="features__items">
+          <li class="features__item">
+            <h3 class="features__item-title">Настоящий
+            городок</h3>
+            <span class="features__item-number">-№1-</span> 
+            <p class="features__item-subtitle">
+              Седона — не аттракцион для туристов, там течёт
+              своя жизнь
+            </p> 
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Там есть
+            мост дьявола</h3>
+            <span class="features__item-number">-№2-</span>
+            <p class="features__item-subtitle">
+              Да, по нему можно пройти! Если вы осмелитесь, разумеется
+            </p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Небольшая
+            площадь</h3>
+            <span class="features__item-number">-№3-</span>
+            <p class="features__item-subtitle">
+              Все достопримечательности находятся очень близко
+            </p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Красивая
+            дорога</h3>
+            <span class="features__item-number">-№4-</span>
+            <p class="features__item-subtitle">
+              Ехать в Седону из Лас-Вегаса совсем не скучно!
+            </p>
+          </li>
+          <li class="features__item">
+            <h3 class="features__item-title">Мало
+            туристов</h3>
+            <span class="features__item-number">-№5-</span>
+            <p class="features__item-subtitle">
+              Большинство едет в Гранд Каньон и толпится там
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
+
     <div class="search">
       <div class="search-container">
         <h2 class="search-title">Заинтересовались?</h2>
       </div>
     </div>
+
   </main>
 <!-- Подвал сайта -->
   <footer class="footer">
@@ -80,7 +130,7 @@
 
         </div>
         <div class="developers__logo">
-          
+
         </div>
       </div>
     </section>
