@@ -39,7 +39,7 @@
             <span class="visually-hidden">Избранное</span>
             <span class="additional__icon-counter">12</span>
           </a>
-          <a class="additional__button" href="#">Хочу сюда!</a>
+          <a class="additional__button button" href="#">Хочу сюда!</a>
         </div>
       </nav>
     </div>
@@ -107,40 +107,52 @@
     </section>
 
     <section class="search">
+      <h2 class="visually-hidden">Поиск гостиницы</h2>
       <div class="search-container">
-        <h2 class="search-title">Заинтересовались?</h2>
+        <p class="search__title">Заинтересовались?</з>
         <p class="search__subtitle">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a class="search__button button" href="#">Поиск гостиницы в Седоне</a>
       </div>
     </section>
 
-  </main>
-<!-- Подвал сайта -->
-  <footer class="footer">
     <section class="newsletter">
       <div class="newsletter-container">
-        <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
-        <p class="newsletter-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form action="#" method="post">
-          <input type="email" placeholder="Ваш e-mail">
-          <button class="button">Подписаться</button>
+        <h2 class="newsletter__title">Подпишитесь на рассылку</h2>
+        <p class="newsletter__subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="newsletter__form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="newsletter__label">
+            <span class="visually-hidden">Ваш e-mail</span>
+            <input class="newsletter__input" type="email" name="email" placeholder="Ваш e-mail">
+          </label>
+          <button class="newsletter__button button">Подписаться</button>
         </form>
       </div>
     </section>
-    <section class="developers">
+  </main>
+
+<!-- Подвал сайта -->
+  <footer class="footer">
+    <div class="developers">
       <div class="developers-container">
-        <div class="developers-social social">
-          <ul class="social__list">
+        
+        <ul class="social social__list">
             <li class="social__item">
-              <a href="#" class="social__link">twitter</a>
+              <a class="social__link" href="https://twitter.com/htmlacademy_ru">
+                <span class="visually-hidden">Twitter</span>
+              </a>
             </li>
             <li class="social__item">
-              <a href="#" class="social__link">facebook</a>
+              <a class="social__link" href="https://www.facebook.com/htmlacademy">
+                <span class="visually-hidden">Facebook</span>
+              </a>
             </li>
             <li class="social__item">
-              <a href="#" class="social__link">youtube</a>
+              <a class="social__link" href="https://www.youtube.com/c/HTMLAcademyRUS">
+                <span class="visually-hidden">Youtube</span>
+              </a>
             </li>
-          </ul>
-        </div>
+        </ul>
+        
         <div class="developer-phone">
 
         </div>
@@ -148,7 +160,7 @@
 
         </div>
       </div>
-    </section>
+    </div>
   </footer>
 </body>
 
