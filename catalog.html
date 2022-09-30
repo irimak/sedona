@@ -52,9 +52,7 @@
         </a>
       </li>
       <li class="breadcrumbs__item">
-        <a class="breadcrumbs__link">
-          Гостиницы
-        </a>
+        <a class="breadcrumbs__link">Гостиницы</a>
       </li>
     </ul>
 
@@ -146,6 +144,184 @@
             <button class="filter__button filter__button-reset" type="reset">Сбросить</button>
           </div>
         </form>
+      </div>
+    </section>
+
+    <section class="catalog">
+      <h2 class="visually-hidden">Результаты поиска</h2>
+      <p class="catalog__title">Найдено гостиниц: 38</p>
+
+      <h3 class="visually-hidden">Сортировка и отображение</h3>
+      <details class="catalog__select select">
+        <summary class="select__button">Сначала дешёвые</summary>
+      
+        <ul class="select__menu">
+          <li class="select__item select__item--active">
+            <a class="select__option" href="#">Сначала дешёвые</a>
+          </li>
+          <li class="select__item">
+            <a class="select__option" href="#">Сначала дорогие</a>
+          </li>
+          <li class="select__item">
+            <a class="select__option" href="#">Сначала популярные</a>
+          </li>
+          <li class="select__item">
+            <a class="select__option" href="#">Сначала комфортные</a>
+          </li>
+        </ul>
+      </details>
+
+      <ul class="view">
+        <li class="view__item view__item--active">
+          <a class="view__link">
+            <span class="visually-hidden">Карточками</span>
+          </a>
+        </li>
+        <li class="view__item">
+          <a class="view__link" href="#">
+            <span class="visually-hidden">Слайдами</span>
+          </a>
+        </li>
+        <li class="view__item">
+          <a class="view__link" href="#">
+            <span class="visually-hidden">Списком</span>
+          </a>
+        </li>
+      </ul>
+
+      <h3 class="visually-hidden">Список гостиниц</h3>
+
+      <article class="card">
+        <h4 class="card__title">
+          <a class="card__link" href="#">Amara Resort & Spa</a>
+        </h4>
+      
+        <img class="card__img" src="" alt="">
+      
+        <p class="card-description card__description">
+          <span class="card-description__title">Гостиница</span>
+          <span class="card-description__defenition">От 4000 ₽</span>
+        </p>
+      
+        <a class="button card__button--black" href="#">Подробнее</a>
+        <a class="button card__button--light" href="#">В избранное</a>
+      
+        <p class="star star-four">
+          <span class="visually-hidden">4 звезды</span>
+        </p>
+        <p class="card-rate">Рейтинг: 8,5</p>
+      </article>
+
+      <article class="card">
+        <h4 class="card__title">
+          <a class="card__link" href="#">Desert Quail Inn</a>
+        </h4>
+      
+        <img class="card__img" src="" alt="">
+      
+        <p class="card-description card__description">
+          <span class="card-description__title">Гостиница</span>
+          <span class="card-description__defenition">От 3000 ₽</span>
+        </p>
+      
+        <a class="button card__button--black" href="#">Подробнее</a>
+        <a class="button card__button--light" href="#">В избранное</a>
+      
+        <p class="star star-three">
+          <span class="visually-hidden">3 звезды</span>
+        </p>
+        <p class="card-rate">Рейтинг: 8,9</p>
+      </article>
+
+      <article class="card">
+        <h4 class="card__title">
+          <a class="card__link" href="#">Villas at Poco Diablo</a>
+        </h4>
+      
+        <img class="card__img" src="" alt="">
+      
+        <p class="card-description card__description">
+          <span class="card-description__title">Гостиница</span>
+          <span class="card-description__defenition">От 2000 ₽</span>
+        </p>
+      
+        <a class="button card__button--black" href="#">Подробнее</a>
+        <a class="button card__button--light" href="#">В избранное</a>
+      
+        <p class="star star-two">
+          <span class="visually-hidden">2 звезды</span>
+        </p>
+        <p class="card-rate">Рейтинг: 9,2</p>
+      </article>
+
+      <article class="card">
+        <h4 class="card__title">
+          <a class="card__link" href="#">GreenTree Inn</a>
+        </h4>
+      
+        <img class="card__img" src="" alt="">
+      
+        <p class="card-description card__description">
+          <span class="card-description__title">Гостиница</span>
+          <span class="card-description__defenition">От 3000 ₽</span>
+        </p>
+      
+        <a class="button card__button--black" href="#">Подробнее</a>
+        <a class="button card__button--light" href="#">В избранное</a>
+      
+        <p class="star star-two">
+          <span class="visually-hidden">2 звезды</span>
+        </p>
+        <p class="card-rate">Рейтинг: 9,2</p>
+      </article>
+
+      <div class="pagination">
+        <button class="button pagination__button" type="button">Загрузить ещё</button>
+      
+        <h3 class="visually-hidden">Список страниц</h3>
+        <ul class="pagination__list">
+          <li class="pagination__item pagination__item-active">
+            <a class="pagination__link">1</a>
+          </li>
+          <li class="pagination__item">
+            <a class="pagination__link" href="#">2</a>
+          </li>
+          <li class="pagination__item">
+            <a class="pagination__link" href="#">3</a>
+          </li>
+          <li class="pagination__item">
+            <a class="pagination__link" href="#">4</a>
+          </li>
+          <li class="pagination__item">
+            <a class="pagination__link" href="#">...</a>
+          </li>
+          <li class="pagination__item">
+            <a class="pagination__link" href="#">10</a>
+          </li>
+        </ul>
+      
+        <div class="pagination__select">
+          <p class="pagination__description">Гостиниц на странице:</p>
+      
+          <details class="select">
+            <summary class="select__button">4</summary>
+      
+            <ul class="select__menu">
+              <li class="select__item select__item-active">
+                <a class="select__option" href="#">5</a>
+              </li>
+              <li class="select__item">
+                <a class="select__option" href="#">6</a>
+              </li>
+              <li class="select__item">
+                <a class="select__option" href="#">9</a>
+              </li>
+              <li class="select__item">
+                <a class="select__option" href="#">12</a>
+              </li>
+            </ul>
+          </details>
+        </div>
       </div>
     </section>
   </main>
