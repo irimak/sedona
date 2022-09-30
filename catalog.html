@@ -42,5 +42,86 @@
       </nav>
     </div>
   </header>
+
+  <main class="catalog">
+    <h1 class="catalog__title">Гостиницы Седоны</h1>
+    <ul class="breadcrumbs catalog__breadcrumbs">
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link" href="index.html">
+          <span class="visually-hidden">Главная</span>
+        </a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link">
+          Гостиницы
+        </a>
+      </li>
+    </ul>
+
+    <section class="filter">
+      <div class="filter-container">
+        <h2 class="visually-hidden">Фильтр списка гостиниц</h2>
+
+        <form class="filter__form" action="https://echo.htmlacademy.ru/">
+          <fieldset class="filter__fieldset">
+            <legend class="filter__title">Инфраструктура</legend>
+
+            <ul class="filter__list">
+              <li class="filter__item">
+                <label class="control">
+                  <input class="control__input" type="checkbox" name="infrastructure" value="pool" checked>
+                  <span class="control__lead">Бассейн</span>
+                </label>
+              </li>
+              <li class="filter__item">
+                <label class="control">
+                  <input class="control__input" type="checkbox" name="infrastructure" value="parking" checked>
+                  <span class="control__lead">Парковка</span>
+                </label>
+              </li>
+              <li class="filter__item">
+                <label class="control">
+                  <input class="control__input" type="checkbox" name="infrastructure" value="wi-fi">
+                  <span class="control__lead">Wi-Fi</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="filter__fieldset">
+            <legend class="filter__title">Тип жилья</legend>
+          
+            <ul class="filter__list">
+              <li class="filter__item">
+                <label class="control">
+                  <input class="control__input" type="radio" name="apartment-type" value="hotel" checked>
+                  <span class="control__lead">Гостиница</span>
+                </label>
+              </li>
+              <li class="filter__item">
+                <label class="control">
+                  <input class="control__input" type="radio" name="apartment-type" value="motel">
+                  <span class="control__lead">Мотель</span>
+                </label>
+              </li>
+              <li class="filter__item">
+                <label class="control">
+                  <input class="control__input" type="radio" name="apartment-type" value="apartment">
+                  <span class="control__lead">Апартаменты</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+          <!-- Здесь будет разметка блока Стоимость-->
+
+          <div class="filter-buttons">
+            <button class="filter-button button" type="submit">Применить</button>
+            <button class="filter-button button" type="reset">Сбросить</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
