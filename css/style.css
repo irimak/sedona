@@ -201,7 +201,7 @@ body {
 
 /* Newsletter */
 
-.newsletter {
+.newsletter--color {
   color: #ffffff;
   background-color: #83b3d3;
   background-image: url("../images/background/subscribe.jpg");
@@ -211,4 +211,20 @@ body {
 
 .newsletter__title {
   color: #ffffff;
+}
+
+/* Filter */
+
+.filter__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.filter__button-reset {
+  color: #ffffff;
+  background-color: transparent;
+
+  font-family: inherit;
+  font-size: 18px;
 }
