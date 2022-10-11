@@ -39,7 +39,7 @@ body {
   background-color: #fff;
 }
 
-.main-page {
+.main {
   flex-grow: 1;
 }
 
@@ -68,11 +68,28 @@ body {
   max-width: 1060px;
 }
 
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .menu__list {
+  margin: 0;
+  margin-right: auto;
+  margin-left: 17px;
+  padding: 0;
+
+  display: flex;
+
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   list-style: none;
+}
+
+.menu__item {
+  margin: 0 17px;
 }
 
 .menu__link {
@@ -82,6 +99,22 @@ body {
 }
 
 /* Footer */
+
+.footer {
+}
+
+.footer-container {
+  max-width: 1056px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social__list {
+  display: flex;
+  list-style: none;
+}
 
 .footer__phone {
   font-size: 40px;
