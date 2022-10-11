@@ -236,6 +236,10 @@ body {
 
 /* Features */
 
+.features {
+  text-align: center;
+}
+
 .features-list__inner {
   color: #333333;
   background-color: #ffffff;
@@ -274,7 +278,17 @@ body {
   color: #ffffff;
 }
 
+/* Search */
+
+.search {
+  text-align: center;
+}
+
 /* Newsletter */
+
+.newsletter {
+  text-align: center;
+}
 
 .newsletter--color {
   color: #ffffff;
