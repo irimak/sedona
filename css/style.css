@@ -15,14 +15,32 @@
 }
 
 /*Common*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
 
 body {
+  display: flex;
+  flex-direction: column;
+  width: 1240px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
 
   color: #333333;
   background-color: #fff;
+}
+
+.main-page {
+  flex-grow: 1;
 }
 
 .button {
@@ -46,6 +64,10 @@ body {
 }
 
 /* Header */
+.header-container {
+  max-width: 1060px;
+}
+
 .menu__list {
   font-weight: 700;
   font-size: 20px;
