@@ -43,26 +43,6 @@ body {
   flex-grow: 1;
 }
 
-.button {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  color: #ffffff;
-  background-color: #83b3d3;
-}
-
-.button__color {
-  background-color: #756257;
-}
-
-.button__size {
-  font-size: 20px;
-}
-
 /* Header */
 .header-container {
   max-width: 1060px;
@@ -130,6 +110,15 @@ body {
 
 /* Main */
 
+.main-promo {
+  min-height: 485px;
+
+  background-color: #83b3d3;
+  background-image: url("../images/background/promo.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
 .page-header {
   color: #ffffff;
   background-color: #83b3d3;
@@ -168,6 +157,28 @@ body {
   line-height: 26px;
 }
 
+/* Button */
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+  background-color: #83b3d3;
+}
+
+.button__color {
+  background-color: #756257;
+}
+
+.button__size {
+  font-size: 20px;
+}
+
 /* Forms */
 
 .newsletter__input {
@@ -204,6 +215,11 @@ body {
   color: #000000;
 
   text-decoration: none;
+}
+
+.card-rate {
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 /* Pagination */
