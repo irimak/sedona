@@ -101,10 +101,12 @@ body {
 /* Footer */
 
 .footer {
+  padding: 40px 0 30px;
 }
 
 .footer-container {
   max-width: 1056px;
+  margin: 0 auto;
 
   display: flex;
   justify-content: space-between;
@@ -114,6 +116,8 @@ body {
 .social__list {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__phone {
