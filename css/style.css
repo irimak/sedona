@@ -21,15 +21,16 @@
 
 html {
   height: 100%;
+
+  background-color: #f2f2f2;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  width: 1240px;
+  width: 1200px;
   min-height: 100%;
   margin: 0 auto;
-  padding: 0 20px;
 
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
@@ -46,9 +47,10 @@ body {
 /* Header */
 .header-container {
   max-width: 1060px;
+  margin: 0 auto;
 }
 
-.header__menu {
+.header__nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,7 +84,6 @@ body {
 
 .footer {
   padding: 40px 0 30px;
-  margin-top: auto;
 }
 
 .footer-container {
@@ -129,10 +130,13 @@ body {
 }
 
 .page-header__title {
+  margin: 0;
+
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
 }
+
 .breadcrumbs {
   font-size: 16px;
 }
@@ -241,7 +245,14 @@ body {
   text-align: center;
 }
 
+.features__items {
+  margin: 0;
+  padding: 0;
+}
+
 .features-list__inner {
+  padding: 0;
+
   color: #333333;
   background-color: #ffffff;
 }
