@@ -152,45 +152,50 @@
 
     <section class="catalog">
       <h2 class="visually-hidden">Результаты поиска</h2>
-      <p class="section-title">Найдено гостиниц: 38</p>
 
-      <h3 class="visually-hidden">Сортировка и отображение</h3>
-      <details class="catalog__select select">
-        <summary class="select__button">Сначала дешёвые</summary>
+      <div class="catalog__sort">
+        <p class="section-title catalog-title">Найдено гостиниц: 38</p>
       
-        <ul class="select__menu">
-          <li class="select__item select__item--active">
-            <a class="select__option" href="#">Сначала дешёвые</a>
+        <!--временно добавим атрибут hidden, чтобы заголовок не рушил сетку-->
+        <h3 class="visually-hidden" hidden>Сортировка и отображение</h3>
+        <details class="catalog__select select">
+          <summary class="select__button">Сначала дешёвые</summary>
+        
+          <ul class="select__menu">
+            <li class="select__item select__item--active">
+              <a class="select__option" href="#">Сначала дешёвые</a>
+            </li>
+            <li class="select__item">
+              <a class="select__option" href="#">Сначала дорогие</a>
+            </li>
+            <li class="select__item">
+              <a class="select__option" href="#">Сначала популярные</a>
+            </li>
+            <li class="select__item">
+              <a class="select__option" href="#">Сначала комфортные</a>
+            </li>
+          </ul>
+        </details>
+
+        <ul class="view">
+          <li class="view__item view__item--active">
+            <a class="view__link">
+              <span class="visually-hidden">Карточками</span>
+            </a>
           </li>
-          <li class="select__item">
-            <a class="select__option" href="#">Сначала дорогие</a>
+          <li class="view__item">
+            <a class="view__link" href="#">
+              <span class="visually-hidden">Слайдами</span>
+            </a>
           </li>
-          <li class="select__item">
-            <a class="select__option" href="#">Сначала популярные</a>
-          </li>
-          <li class="select__item">
-            <a class="select__option" href="#">Сначала комфортные</a>
+          <li class="view__item">
+            <a class="view__link" href="#">
+              <span class="visually-hidden">Списком</span>
+            </a>
           </li>
         </ul>
-      </details>
-
-      <ul class="view">
-        <li class="view__item view__item--active">
-          <a class="view__link">
-            <span class="visually-hidden">Карточками</span>
-          </a>
-        </li>
-        <li class="view__item">
-          <a class="view__link" href="#">
-            <span class="visually-hidden">Слайдами</span>
-          </a>
-        </li>
-        <li class="view__item">
-          <a class="view__link" href="#">
-            <span class="visually-hidden">Списком</span>
-          </a>
-        </li>
-      </ul>
+      </div>
+      
 
       <h3 class="visually-hidden">Список гостиниц</h3>
 
@@ -280,50 +285,53 @@
 
       <div class="pagination">
         <button class="button pagination__button button__size" type="button">Загрузить ещё</button>
-      
-        <h3 class="visually-hidden">Список страниц</h3>
-        <ul class="pagination__list">
-          <li class="pagination__item pagination__item-active">
-            <a class="pagination__link">1</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">2</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">3</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">4</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">...</a>
-          </li>
-          <li class="pagination__item">
-            <a class="pagination__link" href="#">10</a>
-          </li>
-        </ul>
-      
-        <div class="pagination__select">
-          <p class="pagination__description">Гостиниц на странице:</p>
-      
-          <details class="select">
-            <summary class="select__button">4</summary>
-      
-            <ul class="select__menu">
-              <li class="select__item select__item-active">
-                <a class="select__option" href="#">5</a>
-              </li>
-              <li class="select__item">
-                <a class="select__option" href="#">6</a>
-              </li>
-              <li class="select__item">
-                <a class="select__option" href="#">9</a>
-              </li>
-              <li class="select__item">
-                <a class="select__option" href="#">12</a>
-              </li>
-            </ul>
-          </details>
+        
+        <div class="pagination__nav">
+          <!--временно добавим атрибут hidden, чтобы заголовок не рушил сетку-->
+          <h3 class="visually-hidden" hidden>Список страниц</h3>
+          <ul class="pagination__list">
+            <li class="pagination__item pagination__item-active">
+              <a class="pagination__link">1</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">2</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">3</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">4</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">...</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="#">10</a>
+            </li>
+          </ul>
+        
+          <div class="pagination__select">
+            <p class="pagination__description">Гостиниц на странице:</p>
+        
+            <details class="select">
+              <summary class="select__button">4</summary>
+        
+              <ul class="select__menu">
+                <li class="select__item select__item-active">
+                  <a class="select__option" href="#">5</a>
+                </li>
+                <li class="select__item">
+                  <a class="select__option" href="#">6</a>
+                </li>
+                <li class="select__item">
+                  <a class="select__option" href="#">9</a>
+                </li>
+                <li class="select__item">
+                  <a class="select__option" href="#">12</a>
+                </li>
+              </ul>
+            </details>
+          </div>
         </div>
       </div>
     </section>
