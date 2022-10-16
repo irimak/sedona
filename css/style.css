@@ -72,24 +72,28 @@ body {
 }
 
 .menu__list {
+  max-width: 627px;
   margin: 0;
   margin-right: auto;
   margin-left: 17px;
   padding: 0;
 
   display: flex;
+  flex-wrap: wrap;
 
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   list-style: none;
 }
-
+/* Проверить необходимость этого класса */
 .menu__item {
-  margin: 0 17px;
 }
 
 .menu__link {
+  display: block;
+  padding: 20px 17px;
+
   text-decoration: none;
 
   color: #000000;
