@@ -432,12 +432,14 @@ body {
 /* Catalog */
 
 .catalog {
-  padding: 44px 72px 34px;
+  padding: 0 72px;
 }
 
 .catalog__sort {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 44px 0;
 }
 
 .catalog-title {
@@ -451,6 +453,20 @@ body {
 }
 
 .view {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
+
+  list-style: none;
+}
+
+.view__item {
+  margin: 0 4px;
+}
+
+.view-link {
+  display: block;
+  width: 48px;
+  height: 48px;
 }
