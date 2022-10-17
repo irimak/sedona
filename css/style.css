@@ -278,21 +278,42 @@ body {
 
 /* Pagination */
 
+.pagination {
+  padding: 30px 0;
+}
+
 .pagination__nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .pagination__list {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
+
+  list-style: none;
+}
+
+.pagination__item {
+  margin: 0 4px;
 }
 
 .pagination__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 55px;
+  height: 55px;
+  padding: 8px;
+
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+  text-align: center;
   text-decoration: none;
 
   color: #ffffff;
@@ -301,6 +322,11 @@ body {
 
 .pagination__select {
   display: flex;
+}
+
+.pagination__description {
+  margin: 0;
+  margin-right: 51px;
 }
 
 /* Features */
