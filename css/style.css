@@ -137,6 +137,16 @@ body {
   padding: 0;
 }
 
+.social__item {
+  margin: 0 3px;
+}
+
+.social__link {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
 .footer__phone {
   font-size: 40px;
   line-height: 40px;
