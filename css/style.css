@@ -130,15 +130,25 @@ body {
   align-items: center;
 }
 
-.social__list {
+.social {
+  max-width: 127px;
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
+}
+
+.social__list {
   margin: 0;
   padding: 0;
 }
 
 .social__item {
-  margin: 0 3px;
+  margin-right: 3px;
+  margin-bottom: 8px;
+}
+
+.social__item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .social__link {
@@ -308,8 +318,8 @@ body {
   list-style: none;
 }
 
-.pagination__item {
-  margin: 0 4px;
+.pagination__item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .pagination__link {
