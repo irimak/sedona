@@ -372,6 +372,10 @@ body {
   text-align: center;
 }
 
+.features__content {
+  padding: 63px 240px 80px;
+}
+
 .features__items {
   margin: 0;
   padding: 0;
