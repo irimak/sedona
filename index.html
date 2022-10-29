@@ -2,22 +2,22 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Седона - небольшой городок в Аризоне</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-<!-- Шапка сайта -->
+  <!-- Шапка сайта -->
   <header class="header">
     <div class="header-container">
       <nav class="header__nav">
         <a class="logo">
           <img class="logo__img" src="images/logo.svg" width="139" height="70" alt="логотип Седона">
         </a>
-        
+
         <ul class="menu menu__list">
           <li class="menu__item menu__item--active">
             <a class="menu__link">Главная</a>
@@ -43,7 +43,7 @@
       </nav>
     </div>
   </header>
-<!-- Основное содержимое страницы -->
+  <!-- Основное содержимое страницы -->
   <main class="main">
     <div class="main-promo">
       <h1 class="visually-hidden">Туристический город Седона</h1>
@@ -52,15 +52,16 @@
     <section class="features">
       <h2 class="visually-hidden">Преимущества Седоны</h2>
 
-      <p class="section-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-      <p class="section-subtitle">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-
+      <div class="features__content">
+        <p class="section-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="section-subtitle">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+      </div>
       <div class="features__list">
         <ul class="features__items">
           <li class="features__item features__item--large">
             <h3 class="features__title features__title--color">Настоящий городок</h3>
-            <span class="features__item-number">-№1-</span> 
-            <p class="features__item-subtitle">Седона — не аттракцион для туристов, там течёт своя жизнь</p> 
+            <span class="features__item-number">-№1-</span>
+            <p class="features__item-subtitle">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="features__item-img" src="images/content/real-city.jpg" width="800" height="384" alt="Фото города Седона с заведениями">
 
             <ul class="features-list features-list__inner">
@@ -125,16 +126,17 @@
             <span class="visually-hidden">Ваш e-mail</span>
             <input class="newsletter__input" type="email" name="email" placeholder="Ваш e-mail">
           </label>
-          <button class="newsletter__button button  button__size" type="submit">Подписаться</button>
+          <button class="newsletter__button button button__size" type="submit">
+            Подписаться
+          </button>
         </form>
       </div>
     </section>
   </main>
 
-<!-- Подвал сайта -->
+  <!-- Подвал сайта -->
   <footer class="footer">
     <div class="footer-container">
-        
       <ul class="social social__list">
         <li class="social__item">
           <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy_ru">
@@ -152,7 +154,7 @@
           </a>
         </li>
       </ul>
-        
+
       <a class="footer__phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
 
       <a class="footer__developer-logo" href="https://htmlacademy.ru/">
@@ -161,4 +163,5 @@
     </div>
   </footer>
 </body>
+
 </html>
