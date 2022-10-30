@@ -266,6 +266,8 @@ body {
 /* Button */
 
 .button {
+  display: inline-block;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -283,6 +285,10 @@ body {
 
 .button__size {
   font-size: 20px;
+}
+
+.search__button {
+  margin-top: 56px;
 }
 
 /* Forms */
@@ -480,9 +486,12 @@ body {
 /* Search */
 
 .search {
+  padding: 90px 240px;
+
   text-align: center;
 }
 
+.search
 /* Newsletter */
 
 .newsletter {
