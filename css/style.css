@@ -395,10 +395,15 @@ body {
 /* Pagination */
 
 .pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 30px 0;
 }
 
 .pagination__nav {
+  width: 100%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -412,6 +417,10 @@ body {
   padding: 0;
 
   list-style: none;
+}
+
+.pagination__button {
+  min-width: 620px;
 }
 
 .pagination__item:not(:last-child) {
