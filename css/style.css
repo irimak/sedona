@@ -294,6 +294,8 @@ body {
 /* Forms */
 
 .newsletter__input {
+  width: 100%;
+
   font-family: inherit;
   font-size: 18px;
   line-height: 26px;
@@ -491,10 +493,11 @@ body {
   text-align: center;
 }
 
-.search
 /* Newsletter */
 
 .newsletter {
+  padding: 94px 200px;
+
   text-align: center;
 }
 
@@ -510,6 +513,11 @@ body {
   color: #ffffff;
 }
 
+.newsletter__form {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  margin-top: 48px;
+}
 /* Filter */
 
 .filter__title {
