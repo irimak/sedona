@@ -571,36 +571,33 @@ body {
 }
 
 .catalog__sort {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 287px max-content;
+  gap: 80px;
   padding: 44px 0;
 }
 
 .catalog-title {
-  width: 50%;
   margin: 0;
-}
-
-.catalog__select {
-  width: 287px;
-  margin-right: auto;
 }
 
 .view {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  justify-content: flex-end;
+
+  max-width: 224px;
+  margin: -4px;
   padding: 0;
 
   list-style: none;
 }
 
 .view__item {
-  margin: 0 4px;
+  margin: 4px;
 }
 
-.view-link {
+.view__link {
   display: block;
   width: 48px;
   height: 48px;
