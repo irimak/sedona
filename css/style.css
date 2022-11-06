@@ -100,7 +100,7 @@ body {
 }
 
 .menu__list {
-  margin: 0 30px;
+  margin: 0;
   padding: 0;
 
   display: flex;
@@ -261,8 +261,13 @@ body {
   min-height: 485px;
 
   background-color: #83b3d3;
-  background-image: url("../images/background/promo.jpg");
   background-repeat: no-repeat;
+  background-position: 50% calc(50% - 16px), 50% 100%, 50% 50%;
+  background-size: auto auto, 100% auto, cover;
+  background-image: url("../images/background/welcome.svg"),
+    url("../images/background/divider.svg"),
+    url("../images/background/promo.jpg");
+
   object-fit: cover;
 }
 
@@ -346,11 +351,42 @@ body {
   border-radius: 4px;
 }
 
+.button:hover {
+  background-color: #68a2ca;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #68a2ca;
+}
+
+.button:focus {
+  background-color: #68a2ca;
+  outline: 3px solid #756257;
+}
+
 .button__color {
   background-color: #756257;
 }
 
+.button__color:hover {
+  background-color: #615048;
+}
+
+.button__color:active {
+  background-color: #615048;
+}
+
+.button__color:focus {
+  background-color: #615048;
+  outline: 3px solid #83b3d3;
+}
+
 .button__size {
+  padding: 16px;
+
+  border-radius: 10px;
+
   font-size: 20px;
 }
 
@@ -359,15 +395,21 @@ body {
 }
 
 /* Forms */
+.newsletter__label {
+  display: flex;
+}
 
 .newsletter__input {
   width: 100%;
+  padding: 8px 20px;
 
   font-family: inherit;
   font-size: 18px;
   line-height: 26px;
 
   background-color: #f2f2f2;
+  border: 2px solid transparent;
+  border-radius: 4px;
 }
 
 /* Filter-price */
@@ -649,6 +691,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 200px;
   margin-top: 48px;
+}
+
+.newsletter__input {
+  border-radius: 10px 0 0 10px;
+}
+
+.newsletter__button {
+  border-radius: 0 10px 10px 0;
 }
 /* Filter */
 
