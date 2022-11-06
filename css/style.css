@@ -412,6 +412,19 @@ body {
   border-radius: 4px;
 }
 
+.newsletter__input:hover {
+  background-color: #e6e6e6;
+}
+
+.newsletter__input:focus {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.newsletter__input-error {
+  border-color: #ff5757;
+  background-color: #ffffff;
+}
 /* Filter-price */
 
 .filter-price__input {
