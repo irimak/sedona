@@ -600,6 +600,7 @@ body {
 
 .pagination__button {
   min-width: 620px;
+  border-radius: 4px;
 }
 
 .pagination__item:not(:last-child) {
