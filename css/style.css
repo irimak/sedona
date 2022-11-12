@@ -462,9 +462,10 @@ body {
   background-color: #68a2ca;
 }
 
-.button:focus {
+.button:focus:not(:active) {
   background-color: #68a2ca;
   outline: 3px solid #756257;
+  outline-offset: 0;
 }
 
 .button__color {
@@ -479,9 +480,25 @@ body {
   background-color: #615048;
 }
 
-.button__color:focus {
+.button__color:focus:not(:active) {
   background-color: #615048;
   outline: 3px solid #83b3d3;
+}
+
+.button__success {
+  background-color: #7db54f;
+}
+
+.button__success:hover {
+  background-color: #6c9e42;
+}
+
+.button__success:active {
+  background-color: #6c9e42;
+}
+
+.button__success:focus:not(:active) {
+  background-color: #6c9e42;
 }
 
 .button__size {
