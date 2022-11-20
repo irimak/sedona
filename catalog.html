@@ -177,32 +177,34 @@
                 <legend class="filter__title">Стоимость, ₽:</legend>
 
                 <div class="filter-price">
-                  <label class="filter-price__label">
-                    <span class="filter-price__text">от</span>
-                    <input
-                      class="filter-price__input"
-                      type="number"
-                      name="price-from"
-                      min="0"
-                      max="9000"
-                      value="0"
-                      step="100"
-                    />
-                  </label>
-                  <label class="filter-price__label">
-                    <span class="filter-price__text">до</span>
-                    <input
-                      class="filter-price__input"
-                      type="number"
-                      name="price-to"
-                      min="0"
-                      max="9000"
-                      value="9000"
-                      step="100"
-                    />
-                  </label>
+                  <div class="filter-price__fields">
+                    <label class="filter-price__label">
+                      <span class="filter-price__text">от</span>
+                      <input
+                        class="filter-price__input"
+                        type="number"
+                        name="price-from"
+                        min="0"
+                        max="9000"
+                        value="0"
+                        step="100"
+                      />
+                    </label>
+                    <label class="filter-price__label">
+                      <span class="filter-price__text">до</span>
+                      <input
+                        class="filter-price__input"
+                        type="number"
+                        name="price-to"
+                        min="0"
+                        max="9000"
+                        value="9000"
+                        step="100"
+                      />
+                    </label>
+                  </div>
                   <div class="filter-slider slider">
-                    <div class="slider__bar">
+                    <div class="slider__bar" style="margin-right: 50px">
                       <button class="slider__thumb" type="button">
                         <span class="visually-hidden">Ручка минимальной цены</span>
                       </button>
